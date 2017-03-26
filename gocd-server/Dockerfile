@@ -17,4 +17,3 @@ EXPOSE 8154
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
 CMD ["/etc/init.d/go-server", "start"]
-CMD /etc/init.d/go-server start && tail -f /var/log/go-server/go-server.log
